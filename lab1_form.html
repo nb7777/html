@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+</head>
+<body>
+	<form action="login.html">
+		<label for="name">Name:</label>
+		<input type = "text" name="name" id="name" placeholder="Name" maxlength="25" required><br>
+		<label for="email">Email:</label>
+		<input type="text" name="email" id="email" value="test@example.com" required autofocus><br>
+		<label for="password">Password:</label>
+		<input type="password" name="password" id="password" maxlength="6" required ><br>
+		<label for="category">Category:</label>
+		<select id="category" required>
+			<option>Student</option>
+			<option>Employ</option>
+            <option selected>Freelancer</option>
+        </select><br>
+        <label for="date">Event date:</label>
+        <input tpe="date" name="date" id="date"><br>
+        <input type="radio" name="1ticket">1 ticket  
+        <input type="radio" name="2tickets"checked>2 tickets
+        <input type="radio" name="3tickets">3 tickets <br>
+        <input type="checkbox" name="online payment">Online Payment <br>
+        Notes:<br>
+        <textarea name="Notes" descripton="Notes" placeholder="Notes"></textarea><br>
+        <input type=submit>
+</body>
